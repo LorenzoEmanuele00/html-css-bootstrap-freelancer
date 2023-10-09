@@ -1,0 +1,64 @@
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(29, 66, 108);
+    height: 50px;
+    z-index: 5;
+}
+
+.flex_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+    background-color: aquamarine;
+}
+
+.links {
+    width: 100px;
+    height: 40px;
+    background-color: aquamarine;
+}
+
+
+/* HERO */
+.hero {
+    background-color: rgb(0, 193, 129);
+    padding-top: 50px;
+}
+
+.hero-content{
+    width: 100%;
+    background-color: brown;
+    min-height: 200px;
+}
+
+@media screen and (min-width: 576px) {
+    .hero-content {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hero-content {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+/* GRID */
+.container h2 {
+    text-align: center;
+}
+
+.card {
+    height: 50px;
+    background-color: brown;
+}
