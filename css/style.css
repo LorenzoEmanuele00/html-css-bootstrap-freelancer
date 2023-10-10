@@ -1,6 +1,7 @@
 :root {
     --head-c:#2c3f50;
     --hero-c:#1abc9c;
+    --footer-c:#3b546d;
 }
 
 /* HEADER */
@@ -40,9 +41,39 @@
 }
 
 
-/* CONTAVT ME SECTION */
+/* CONTACT ME SECTION */
 .bb {
     border: 0;
     border-bottom: 1px solid gray;
     border-radius: 0%;
+}
+
+.ms_btn-change-green {
+    background-color: var(--hero-c);
+}
+
+
+/* FOOTER */
+.ms_bg-c-foot {
+    background-color: var(--footer-c);
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 40px;
+}
+
+.ms_scale {
+    scale: 1.3;
+}
+
+.ms_deep-foot {
+    background-color: var(--head-c);
+}
+
+.ms_green-text {
+    color: var(--hero-c);
 }
