@@ -5,47 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Bootstrap-starter</title>
 </head>
 <body>
 
-    <header>
-        <div class="container flex_header">
-            <div class="logo"></div>
-            <div class="links"></div>
-        </div>
+    <!-- HEADER -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg ms_bg-color-header">
+            <div class="container">
+                <a class="navbar-brand ms_text-white" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars ms_text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link ms_text-white" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms_text-white" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms_text-white" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="hero-content"></div>
+
+        <!-- HERO SECTION -->
+        <section class="ms_bg-color ms_margin-top py-4">
+            <div class="container text-center ms_text-white">
+                <img class="avatar pb-4" src="img/avatar.svg" alt="avatar">
+                <h1>START BOOTSTRAP</h1>
+                <i class="fa-solid fa-star pb-3"></i>
+                <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+            </div>
         </section>
 
-        <div class="container mt-5">
+        <!-- GRID SECTION -->
+        <section class="container mt-5 text-center">
             <h2>PORTFOLIO</h2>
-            <div class="row g-3">
+            <i class="fa-solid fa-star pb-3"></i>
+            <div class="row g-4">
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card"></div>
+                    <div class="card">
+                        <img src="img/cabin.png" alt="">
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card"></div>
+                    <div class="card">
+                        <img src="img/cake.png" alt="">
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card"></div>
+                    <div class="card">
+                        <img src="img/circus.png" alt="">
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card"></div>
+                    <div class="card">
+                        <img src="img/game.png" alt="">
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card"></div>
+                    <div class="card">
+                        <img src="img/safe.png" alt="">
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card"></div>
+                    <div class="card">
+                        <img src="img/submarine.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-
+        <!-- ABOUT SECTION -->
+        <section class="ms_bg-color mt-5">
+            <div class="ms_small-container m-auto text-center py-3 ms_text-white">
+                <h2>ABOUT</h2>
+                <i class="fa-solid fa-star pb-3"></i>
+                <div class="row row-cols-1 row-cols-sm-2 text-start">
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsum quis perspiciatis alias. Facere exercitationem magnam nihil non repellat animi. Iure corporis, provident ut dignissimos cumque rerum perspiciatis totam saepe!</p>
+                    </div>
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsum quis perspiciatis alias. Facere exercitationem magnam nihil non repellat animi. Iure corporis, provident ut dignissimos cumque rerum perspiciatis totam saepe!</p>
+                    </div>
+                </div>
+                <button class="btn btn-outline-light ms_button-border">Download</button>
+            </div>
+        </section>
 
     </main>
 </body>
