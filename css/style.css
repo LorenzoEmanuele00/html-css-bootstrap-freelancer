@@ -28,13 +28,21 @@
 }
 
 @media screen and (min-width: 576px) {
-    .hero img {
+    .avatar {
         width: 40%;
     }
 }
 
 
-/* about section */
+/* ABOUT ME */
 .ms_small-container {
     width: 70%;
+}
+
+
+/* CONTAVT ME SECTION */
+.bb {
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 0%;
 }
