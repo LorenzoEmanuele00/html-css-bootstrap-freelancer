@@ -4,6 +4,16 @@
     --footer-c:#3b546d;
 }
 
+
+/* COMMON */
+
+
+hr {
+    width: 20%;
+    border: 2px solid;
+    opacity: 1;
+}
+
 /* HEADER */
 .ms_bg-color-header {
     background-color:var(--head-c);

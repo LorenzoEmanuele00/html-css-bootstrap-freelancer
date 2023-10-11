@@ -12,14 +12,14 @@
 
     <!-- HEADER -->
     <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg ms_bg-color-header">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark ms_bg-color-header">
+            <div class="container-fluid">
                 <a class="navbar-brand ms_text-white" href="#hero">START BOOTSTRAP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars ms_text-white"></i>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link ms_text-white" aria-current="page" href="#portfolio">PORTFOLIO</a>
                         </li>
@@ -32,7 +32,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+          </nav>
     </header>
 
     <main>
@@ -42,15 +42,24 @@
             <div class="container text-center ms_text-white">
                 <img class="avatar pb-4" src="img/avatar.svg" alt="avatar">
                 <h1>START BOOTSTRAP</h1>
-                <i class="fa-solid fa-star pb-3"></i>
+                <div class="d-flex align-items-center justify-content-center">
+                    <hr>
+                    <i class="fa-solid fa-star m-2"></i>
+                    <hr>
+                </div>
+                
                 <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
             </div>
         </section>
 
         <!-- GRID SECTION -->
-        <section id="portfolio" class="container mt-5 text-center">
+        <section id="portfolio" class="container my-5 py-3 text-center">
             <h2>PORTFOLIO</h2>
-            <i class="fa-solid fa-star pb-3"></i>
+            <div class="d-flex align-items-center justify-content-center">
+                <hr>
+                <i class="fa-solid fa-star m-2"></i>
+                <hr>
+            </div>
             <div class="row g-4">
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card">
@@ -86,10 +95,14 @@
         </section>
 
         <!-- ABOUT SECTION -->
-        <section id="about" class="ms_bg-color py-4 mt-5">
+        <section id="about" class="ms_bg-color py-4">
             <div class="ms_small-container m-auto text-center py-3 ms_text-white">
                 <h2>ABOUT</h2>
-                <i class="fa-solid fa-star pb-3"></i>
+                <div class="d-flex align-items-center justify-content-center">
+                    <hr>
+                    <i class="fa-solid fa-star m-2"></i>
+                    <hr>
+                </div>
                 <div class="row row-cols-1 row-cols-sm-2 text-start">
                     <div class="col">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsum quis perspiciatis alias. Facere exercitationem magnam nihil non repellat animi. Iure corporis, provident ut dignissimos cumque rerum perspiciatis totam saepe!</p>
@@ -103,10 +116,14 @@
         </section>
 
         <!-- CONTACT ME SECTION -->
-        <section id="contact" class="py-4 mt-5">
+        <section id="contact" class="py-2 mt-5">
             <div class="ms_small-container text-center m-auto">
                 <h2>CONTACT ME</h2>
-                <i class="fa-solid fa-star pb-3"></i>
+                <div class="d-flex align-items-center justify-content-center">
+                    <hr>
+                    <i class="fa-solid fa-star m-2"></i>
+                    <hr>
+                </div>
                 <div class="form-floating mb-2">
                     <input type="text" class="form-control bb" id="floatingtext" placeholder="name@example.com">
                     <label for="floatingtext">Name</label>
